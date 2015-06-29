@@ -1,2 +1,7 @@
+Codes and Sequence
 
-
+1) createJsonMark: Creating our Json files / Simple parsing is being made / avoid dupicates(add to dict)
+2) JsonParser: Parsing of Json Files and coverting them to text files while taking the needed fields. (english/hebrew)
+3) DataLoad: Database data inserting/ avoiding duplicate enteries
+4) MakeWordClouds: create word clouds for the generated topics.
+5) searchInterface: Creating Search Interface/ still under development.
