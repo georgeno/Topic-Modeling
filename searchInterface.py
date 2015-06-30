@@ -136,6 +136,5 @@ myButton= Button(text='OK', command=WordCloud, fg= 'red', bg='yellow').place(x=9
 myTextBox= Entry(myInterface,text=myWord).place(x=930 , y=100)
 
 #Pass our variable which is search to the function up upon clicking the button that we have.
-myInterface.mainloop() # this is needed on soming a string in the search box since we are entering a word there to search for.
-
+myInterface.mainloop() 
 
