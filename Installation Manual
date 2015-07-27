@@ -1,0 +1,9 @@
+The following is needed in order to run the program.
+
+1- Pycharm: Python IDE
+https://www.jetbrains.com/pycharm
+2- Python (version 3.4)
+https://www.python.org
+3- Connection and access to the database. (WampServer)
+4- JDK: Java Development Kit
+5- Source Code (SearchInterface.py)
