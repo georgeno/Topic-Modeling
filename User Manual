@@ -1,0 +1,10 @@
+In order to run the program, the following steps should be followed.
+
+1- Accessing the source code using Pycharm.
+2- Access to the database, Start the services (WampServer) 
+3- Access: localhost:8080/phpmyadmin
+4- Run the Program.
+5- Search for the requested word. Upon doing this, you are presented with 2 word clouds that relate most to that word searched.
+Choose the topic you are interested in by clicking on the word cloud. You will receive the most related books found related to 
+that topic.
+6- You can reset the search word or the whole search using reset at anytime.
