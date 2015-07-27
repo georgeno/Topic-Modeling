@@ -1,10 +1,12 @@
 In order to run the program, the following steps should be followed.
 
-1- Accessing the source code using Pycharm.
+1- Accessing the source code (searchInterface) using Pycharm.
 2- Access to the database, Start the services (WampServer) 
 3- Access: localhost:8080/phpmyadmin
 4- Run the Program.
 5- Search for the requested word. Upon doing this, you are presented with 2 word clouds that relate most to that word searched.
+For instance, if you search for the word Education, you will get a word cloud that relate to Education related to Children
+disorders when learning etc... and another word cloud which relates to learning in schools.....
 Choose the topic you are interested in by clicking on the word cloud. You will receive the most related books found related to 
-that topic.
+that topic(Word Cloud).
 6- You can reset the search word or the whole search using reset at anytime.
