@@ -1,21 +1,26 @@
 **What has been done so far:
 
-1- The search is performed mostly on the metadata of around 870000 books. A few hebrew results were added as well. A total of 400
-Topics were created from this data using the LDA ALGORITHM and each topic has a total of 19 words. For each Topic a word cloud 
-was created with the words sized to match their weight in that topic.
+1- The search is performed mostly on the metadata of around 870000 english books. A few hebrew books were added as well. A 
+   total of 400 topics were created from this data using Topic Modeling (LDA ALGORITHM) and each topic has a total of 19 words. 
+   English Topics were created using http://mallet.cs.umass.edu/
+   Hebrew Topics were created using http://www.cs.bgu.ac.il/~nlpproj/LDAforHebrew.html
+   For each Topic a word cloud was created with the words sized to match their weight in that topic. The weight was calculated
+   through the results obtained from the LDA algorithm.
+   
 2- All the Data was stored in the database. This includes the original metadata of these books as well as the results obtained 
-from the LDA Algorithm. This data is used in order to help with the search.
-3- A simple search interface was added in order to test the results and decide what can things can be improved onto and how.
+   from the LDA Algorithm. This data is used in order to help with the search.
+   
+3- A simple search interface was added in order to test the results and decide what can be done and improved.
 
 **How is Search Performed:
 
-Upon entering the search word, the program looks for that word in words of the topics that are stored in the database. If the 
-word is not searched, an appropriate message will be displayed requesting a new word.
-When the word is found within the topics in the database, it's id is then saved. Through the id, we check the topics that this 
-word is related to and get the first two.
-The next step is the display of the word clouds for these topics. Upon choosing a word cloud, the id of the topic (wordcloud) is 
-searched and the id of the highest 7 documents that are related to that topic are being retrieved. 
-In the last step, the book name is extracted from the content of the metadata for each document.
+1- Upon entering the search word, the program looks for that word in the words table that is stored in the database. 
+   If the word entered is not found, an appropriate message will be displayed. A new word request is issued.
+2- When the word is found in the database, it's id is then saved. Through the word id, we retrieve the topics id's that 
+   this word is related to and get the first two.
+3- The next step is the display of the word clouds for these topics. Upon choosing a word cloud, the id of the topic(wordcloud)
+   is searched and the id of the highest 7 documents(files) that are related to that topic are being retrieved. 
+4- In the last step, the book name is extracted from the content of the metadata for each document using the document(file) id.
 
 **Things that can be improved and added.
 
