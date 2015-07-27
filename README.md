@@ -11,11 +11,13 @@ Our input was the metadata of books received from the united library Catalog in 
 
 Code:
 
-1- createJsonMarc.py: Runing on our Marc data and creating a Json type file for each book that includes its metadata               Duplicates were solved and the needed parsing was performed.
+1- createJsonMarc.py: Runing on our Marc data and creating a Json type file for each book that includes its metadata       Duplicates were solved and the needed parsing was performed.
 
-2- JsonParser.py: Each json file(book) was converted to a text file. This text file includes only the metadata that will help      us during our search. For instance, title, subjects and comments for that book. This data was parsed (regex) in order to        get the data in the correct form. This was performed on 870000+ English books as well as some hebrew books. 
-   These files were used to create the topics.(Topic Modeling)
-   Mallet for English topics  http://mallet.cs.umass.edu/
-   LemLDA for hebrew topics   http://www.cs.bgu.ac.il/~nlpproj/LDAforHebrew.html
+2- JsonParser.py: Each json file(book) was converted to a text file. This text file includes only the metadata that will help us during our search. For instance, title, subjects and comments for that book. This data was parsed (regex) in order to   get the data in the correct form. This was performed on 870000+ English books as well as some hebrew books. 
+These files were used to create the topics.(Topic Modeling)
+
+Mallet for English topics  http://mallet.cs.umass.edu/
+
+LemLDA for hebrew topics   http://www.cs.bgu.ac.il/~nlpproj/LDAforHebrew.html
    
 3-
