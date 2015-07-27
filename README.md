@@ -24,3 +24,9 @@ LemLDA for Hebrew topics   http://www.cs.bgu.ac.il/~nlpproj/LDAforHebrew.html
 5- searchInterface.py: Our Search Interface. The user enters the word he would like to search for, and receives the first 2 word clouds (topics) that relate to that word. Clicking the word cloud will retrieve the book names related to it.
 
 MANUALS
+
+1- Installation Manual: Includes the tools that are required to run the progam.
+
+2- User Manual: Includes the explanation of how to run the program.
+
+3- Developer's Manual: Includes information on what has been done so far with the project and what can be done in the future for further development.
