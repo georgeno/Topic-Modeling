@@ -1,4 +1,6 @@
-**What has been done so far:
+--------------------------
+What has been done so far:
+--------------------------
 
 1- The search is performed mostly on the metadata of around 870000 english books. A few hebrew books were added as well. A 
    total of 400 topics were created from this data using Topic Modeling (LDA ALGORITHM) and each topic has a total of 19 words. 
@@ -12,7 +14,9 @@
    
 3- A simple search interface was added in order to test the results and decide what can be done and improved.
 
-**How is Search Performed:
+------------------------
+How is Search Performed:
+------------------------
 
 1- Upon entering the search word, the program looks for that word in the words table that is stored in the database. 
    If the word entered is not found, an appropriate message will be displayed. A new word request is issued.
@@ -22,7 +26,9 @@
    is searched and the id of the highest 7 documents(files) that are related to that topic are being retrieved. 
 4- In the last step, the book name is extracted from the content of the metadata for each document using the document(file) id.
 
-**Things that can be improved and added.
+--------------------------------------
+Things that can be improved and added:
+--------------------------------------
 
 1- Working on more data. Possibly adding support for languages such as French and Arabic while continuing to improve both the 
    English and Hebrew ones.
