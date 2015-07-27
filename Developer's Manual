@@ -24,10 +24,10 @@
 
 **Things that can be improved and added.
 
-1- Working on more data. Possibly adding languages such as French and Arabic while continuing to improve both the English and 
-Hebrew ones.
+1- Working on more data. Possibly adding support for languages such as French and Arabic while continuing to improve both the 
+   English and Hebrew ones.
 2- With more data, it is possible to get better topics and more coherent ones. (Testing to check best number of topics).
-3- Creating better word clouds.
-4- Improving the Search Interface by adding more functionality to it. Possibility of searching for sentences as well as returning
-more word clouds. The ability to click words within a word cloud rather than the word cloud itself.
+3- Creating better word clouds with more words for each topic.
+4- Improving the Search Interface by adding more functionality to it. Possibility of searching for sentences as well as 
+returning more word clouds. The ability to click words within a word cloud rather than the word cloud itself.
 5- Displaying the results in a better way.
