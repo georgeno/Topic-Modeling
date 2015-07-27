@@ -1,0 +1,25 @@
+What has been done so far:
+1- The search is performed mostly on the metadata of around 870000 books. A few hebrew results were added as well. A total of 400
+Topics were created from this data using the LDA ALGORITHM and each topic has a total of 19 words. For each Topic a word cloud 
+was created with the words sized to match their weight in that topic.
+2- All the Data was stored in the database. This includes the original metadata of these books as well as the results obtained 
+from the LDA Algorithm. This data is used in order to help with the search.
+3- A simple search interface was added in order to test the results and decide what can things can be improved onto and how.
+
+How is Search Performed:
+Upon entering the search word, the program looks for that word in words of the topics that are stored in the database. If the 
+word is not searched, an appropriate message will be displayed requesting a new word.
+When the word is found within the topics in the database, it's id is then saved. Through the id, we check the topics that this 
+word is related to and get the first two.
+The next step is the display of the word clouds for these topics. Upon choosing a word cloud, the id of the topic (wordcloud) is 
+searched and the id of the highest 7 documents that are related to that topic are being retrieved. 
+In the last step, the book name is extracted from the content of the metadata for each document.
+
+Things that can be improved and added.
+1- Working on more data. Possibly adding languages such as French and Arabic while continuing to improve both the English and 
+Hebrew ones.
+2- With more data, it is possible to get better topics and more coherent ones. (Testing to check best number of topics).
+3- Creating better word clouds.
+4- Improving the Search Interface by adding more functionality to it. Possibility of searching for sentences as well as returning
+more word clouds. The ability to click words within a word cloud rather than the word cloud itself.
+5- Displaying the results in a better way.
