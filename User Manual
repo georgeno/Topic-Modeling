@@ -1,6 +1,6 @@
 In order to run the program, the following steps should be followed.
 
-1- Accessing the source code (searchInterface) using Pycharm.
+1- Accessing the source code (searchInterface.py) using Pycharm.
 2- Access to the database, Start the services (WampServer) 
 3- Access: localhost:8080/phpmyadmin
 4- Run the Program.
