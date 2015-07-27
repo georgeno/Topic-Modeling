@@ -20,4 +20,4 @@ Mallet for English topics  http://mallet.cs.umass.edu/
 
 LemLDA for hebrew topics   http://www.cs.bgu.ac.il/~nlpproj/LDAforHebrew.html
    
-3-DataLoad.py: Both our data (Json files with all the metadata for each book) and the results obtained through runing the LDA algorithm are added to our database.
+3- DataLoad.py: Both our data (Json files with all the metadata for each book) and the results obtained through runing the LDA algorithm are added to our database.
