@@ -1,9 +1,10 @@
 The following is needed in order to run the program.
 
-1- Pycharm: Python IDE
+1- Windows Operating System.
+2- Pycharm: Python IDE
 https://www.jetbrains.com/pycharm
-2- Python (version 3.4)  "Make sure to add it the system environment variables"
+3- Python (version 3.4)  "Make sure to add it the system environment variables"
 https://www.python.org
-3- Connection and access to the database. (WampServer)
-4- JDK: Java Development Kit
-5- Source Code (SearchInterface.py)
+4- Connection and access to the database. (WampServer)
+5- JDK: Java Development Kit
+6- Source Code (SearchInterface.py)
