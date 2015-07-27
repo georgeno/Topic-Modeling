@@ -27,6 +27,8 @@ MANUALS
 
 1- Installation Manual: Includes the tools that are required to run the progam.
 
-2- User Manual: Includes the explanation of how to run the program.
+2- User Manual: Includes explanation of how to run the program.
 
 3- Developer's Manual: Includes information on what has been done so far with the project and what can be done in the future for further development.
+
+
